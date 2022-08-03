@@ -1,0 +1,28 @@
+body {
+    background-color: #e9eaec;
+    width: 25%;
+    margin: 0 auto;
+
+}
+.wrapper {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+}
+.createPost {
+    background-color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+.createPostButton {
+    float: right;
+    margin: .5em 1em;
+    background-color: #4469B0;
+    border: none;
+    padding: .5em;
+    border-radius: 5px;
+}
+.navlink {
+    color: white;
+}

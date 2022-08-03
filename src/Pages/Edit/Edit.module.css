@@ -1,0 +1,91 @@
+body {
+    background-color: #e9eaec;
+    width: 35%;
+    margin: 6em auto;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.closeButton {
+    margin-right: .7em;
+    margin-top: .7em;
+    margin-bottom: .7em;
+}
+
+.titleText {
+    margin-top: .7em;
+    margin-bottom: .7em;
+    margin-left: .7em;
+    color: #313039;
+}
+
+.title, .saveButtonWrapper {
+    background-color: #F4F6F7;
+}
+
+.titleText {
+    font-weight: 500;
+}
+
+.post {
+    background-color: white;
+    display: flex;
+    height: 4em;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 4em;
+    background-color: white;
+    border-top: 1px solid #E7EBEF;
+}
+
+.actions div div {
+    background-color: #F4F6F7;
+    border-radius: 15px;
+    padding: .3em 1em;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    width: 120%;
+    text-align: left;
+}
+
+.saveButton {
+    border-top: 1px solid #E7EBEF;
+}
+
+.avatar {
+    border-radius: 50%;
+    background-image: url("../../assets/avatar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-top: .7em;
+    margin-left: .5em;
+}
+
+.saveButtonWrapper {
+    display: flex;
+    justify-content: right;
+}
+
+.saveButton {
+    color: white;
+    margin: .5em 1em;
+    background-color: #4469B0;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enteredValue {
+    font-size: 1em;
+    padding: 1.1em 2em;
+}

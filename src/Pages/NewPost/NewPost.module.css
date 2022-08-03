@@ -1,0 +1,68 @@
+body {
+    background-color: #e9eaec;
+    width: 35%;
+    margin: 0 auto;
+}
+.wrapper {
+    margin-top: 6em;
+    background-color: white;
+    border-radius: 5px;
+}
+.tabsWrapper {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #E7E3E7;
+}
+.publication {
+    position: relative;
+}
+.publication:after {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    left: 65px; bottom: -9px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-bottom: 10px solid #E7E3E7; /* Добавляем треугольник */
+}
+.tabs {
+    display: flex;
+    margin: .5em;
+}
+.tabs div {
+    border-right: 1px solid #E7E3E7;
+    padding: 0 1em .2em;
+    color: #426194;
+    font-size: .9em;
+    font-weight: 500;
+}
+.createPost {
+    background-color: #F4F6F7;
+    display: flex;
+    justify-content: right;
+}
+.publish {
+    color: white;
+    margin: .5em 1em;
+    background-color: #4469B0;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.close {
+   font-size: 1.1em;
+    margin-top: .4em;
+    color: #61dafb;
+}
+.post {
+    display: flex;
+    margin: 1em;
+}
+.avatar {
+    border-radius: 50%;
+    background-image: url("../../assets/avatar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    margin-top: .8em;
+}

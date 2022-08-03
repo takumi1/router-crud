@@ -1,0 +1,34 @@
+body {
+    margin-top: 6em;
+}
+
+.actionButtons {
+    background-color: white;
+    margin: -2em 0;
+    width: 100%;
+    padding: 0;
+    border-top: 1px solid #E7E3E7;
+    display: flex;
+    justify-content: right;
+    padding: .1em 0;
+}
+
+.changeButton{
+    color: white;
+    margin: .5em 1em;
+    background-color: #4469B0;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deleteButton {
+    color: white;
+    margin: .5em 1em;
+    background-color: #B04547;
+    border: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
